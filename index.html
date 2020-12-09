@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flexbox task</title>
+    <link rel="stylesheet" href="./assets/style/reset.css" />
+    <link rel="stylesheet" href="./assets/style/main.css" />
+  </head>
+  <body>
+    <main>
+      <section class="register">
+        <div class="titleBlock">
+          <div class="line"></div>
+          <h1 class="title">Register</h1>
+          <div class="line"></div>
+        </div>
+
+        <p class="desc">
+          Create your account. It`s free and only takes a minute.
+        </p>
+
+        <form class="registrationForm" method="POST">
+          <div class="namesBlock">
+            <input
+              class="inputStyle"
+              name="firstName"
+              autofocus
+              type="text"
+              placeholder="First name"
+              pattern="^[A-Z][a-z]{2,15}$"
+              required
+            />
+            <input
+              class="inputStyle"
+              autofocus
+              type="text"
+              placeholder="Last name"
+              pattern="^[A-Z][a-z]{2,15}$"
+              name="lastName"
+              required
+            />
+          </div>
+
+          <div class="accountBlock">
+            <input
+              class="inputStyle"
+              name="email"
+              type="email"
+              placeholder="Email"
+              autocomplete="email"
+              required
+            />
+            <input
+              class="inputStyle"
+              type="password"
+              placeholder="Password"
+              name="password"
+              autocomplete="new-password"
+              required
+            />
+            <input
+              class="inputStyle"
+              type="password"
+              placeholder="Confirm Password"
+              name="confirm-password"
+              autocomplete="new-password"
+              required
+            />
+          </div>
+
+          <div class="privacyBlock">
+            <input type="checkbox" name="policyTerms" />
+
+            <label class="policyTermsLabel" for="policyTerms"
+              >I accept the <a href="#" class="link">Terms of Use</a> &
+              <a href="#" class="link">Privacy Policy</a></label
+            >
+          </div>
+
+          <button class="registerBtn">
+            Register Now
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f2f3f7;
+}
+
+.accountBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  width: 6rem;
+  border-bottom: solid 3px #d0d1d5;
+}
+
+.titleBlock {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+}
+
+.title {
+  margin: 0 10px 0 10px;
+  font-size: 1.5rem;
+  color: #717074;
+}
+
+.desc {
+  color: #bfbfc3;
+  padding: 1rem;
+}
+
+.registrationForm {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.namesBlock > input:first-of-type {
+  width: 45%;
+}
+
+.namesBlock > input:nth-of-type(2) {
+  width: 45%;
+}
+
+.namesBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.inputStyle {
+  height: 1.5rem;
+  border: solid 2px #e9e9e9;
+  margin-top: 0.8rem;
+}
+
+.privacyBlock {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:1rem 0 1rem 0;
+}
+
+.link {
+  color: #a7bca9;
+  text-decoration: none;
+}
+
+.policyTermsLabel {
+  width: 90%;
+}
+
+.registerBtn {
+  color:white;
+  background-color: #55ad55;
+  border: solid 1px #55ad55;
+  box-shadow: 10px 9px 8px 0px rgba(34, 60, 80, 0.2) inset;
+  width: 100%;
+  padding: 0.5rem 0 0.5rem 0;
+}
